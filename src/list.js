@@ -13,3 +13,5 @@ const list = (basePath) => {
     throw new Error(`Error accessing path ${basePath}: ${err.message}`);
   }
 };
+
+module.exports = { list }
